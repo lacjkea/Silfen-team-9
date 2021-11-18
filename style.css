@@ -128,10 +128,10 @@ footer {
 main {
   display: grid;
   /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); lacj */
-  grid-template-columns: minmax(300px, 25%) repeat(
+  grid-template-columns: minmax(300px, 25%) 1fr; /* repeat(
       auto-fill,
       minmax(300px, 1fr)
-    );
+    ); /* lacj */
 }
 
 img {
